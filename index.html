@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="WOIC 2026 Badge Generator">
   <meta name="twitter:description" content="Create your personalized 'I am attending #WOIC2026' badge by uploading your photo.">
-  <meta name="twitter:image" content="https://worldopeninnovation.github.io/WOIC2025-Badge/thumbnail.png">
+  <meta name="twitter:image" content="https://worldopeninnovation.github.io/WOIC-Badge/thumbnail.png">
 
   <!-- Google Fonts: Montserrat -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -72,7 +72,7 @@
   </style>
 </head>
 <body>
-  <h1>WOIC 2025 Badge Generator</h1>
+  <h1>WOIC 2026 Badge Generator</h1>
   <p>Upload and adjust your photo, then download your badge with the official frame.</p>
 
   <!-- Buttons -->
@@ -188,7 +188,7 @@
     // Download
     btnDownload.addEventListener('click', () => {
       const link = document.createElement('a');
-      link.download = 'WOIC2025_Badge.png';
+      link.download = 'WOIC2026_Badge.png';
       link.href = canvas.toDataURL('image/png');
       link.click();
     });
